@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arknight: Endfield</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/harmonyos-sans" rel="stylesheet">
+    <link rel="icon" type="webp" href="300px-Endfield_Industries.webp">
+
+</head>
+<body>
+    <audio id="bgm" loop src="music/Arknights Endfield OST - Official Site Theme - deilost.mp3"></audio>
+    <div class="overlay">
+        <div class="title">
+            <img src="logo/Arknights_Endfield_logo.webp" alt="logo" width="400">
+        </div>
+        <div class="line"></div>
+        <div class="percentage-num" id="count">0%</div>
+        <div class="intro"></div>
+    </div>
+    <nav class="navbar">
+        <div class="main-logo">
+            <img src="logo/EN_Logo_Arknights_Endfiled.png" alt="logo" width="90">
+        </div>
+        <div class="elements">
+            <a href="#home"><button>
+                <svg id="nav-icons" xmlns="http://www.w3.org/2000/svg" width="35" height="35"  
+                    fill="currentColor" viewBox="0 0 24 24" >
+                    <!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free-->
+                    <path d="M3 13h1v7c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2v-7h1c.4 0 .77-.24.92-.62.15-.37.07-.8-.22-1.09l-8.99-9a.996.996 0 0 0-1.41 0l-9.01 9c-.29.29-.37.72-.22 1.09s.52.62.92.62Zm9-8.59 6 6V20H6v-9.59z"></path>
+                </svg><span>Home</span></button>
+            </a>
+
+            <a href="#operators"><button>
+                <svg id="nav-icons" xmlns="http://www.w3.org/2000/svg" width="35" height="35"  
+                    fill="currentColor" viewBox="0 0 24 24" >
+                    <!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free-->
+                    <path d="M12 7c-2 0-3.5 1.5-3.5 3.5S10 14 12 14s3.5-1.5 3.5-3.5S14 7 12 7m0 5c-.88 0-1.5-.62-1.5-1.5S11.12 9 12 9s1.5.62 1.5 1.5S12.88 12 12 12"></path><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2M8.18 19c.41-1.16 1.51-2 2.82-2h2c1.3 0 2.4.84 2.82 2H8.19Zm9.71 0a5 5 0 0 0-4.9-4h-2c-2.41 0-4.43 1.72-4.9 4h-1.1V5h14v14z"></path>
+                </svg><span>Operators</span></button>
+            </a>
+
+            <a href="#media"><button>
+                <svg id="nav-icons" xmlns="http://www.w3.org/2000/svg" width="35" height="35"  
+                    ill="currentColor" viewBox="0 0 24 24" >
+                    <!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free-->
+                    <path d="M20 3H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2M4 19V5h7v14zm9 0V5h7v14z"></path><path d="M15 11h3v2h-3zm0-4h3v2h-3z"></path>
+                </svg><span>Media</span></button>
+            </a>
+
+            <a href="https://www.facebook.com/LuisJuaquinOco" target="_blank" rel="noopener noreferrer"><button class="account">
+                <svg id="nav-icons" xmlns="http://www.w3.org/2000/svg" width="35" height="35"  
+                    fill="currentColor" viewBox="0 0 24 24" >
+                    <!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free-->
+                    <path d="M12 6c-2.28 0-4 1.72-4 4s1.72 4 4 4 4-1.72 4-4-1.72-4-4-4m0 6c-1.18 0-2-.82-2-2s.82-2 2-2 2 .82 2 2-.82 2-2 2"></path><path d="M12 2C6.49 2 2 6.49 2 12c0 3.26 1.58 6.16 4 7.98V20h.03c1.67 1.25 3.73 2 5.97 2s4.31-.75 5.97-2H18v-.02c2.42-1.83 4-4.72 4-7.98 0-5.51-4.49-10-10-10M8.18 19.02C8.59 17.85 9.69 17 11 17h2c1.31 0 2.42.85 2.82 2.02-1.14.62-2.44.98-3.82.98s-2.69-.35-3.82-.98m9.3-1.21c-.81-1.66-2.51-2.82-4.48-2.82h-2c-1.97 0-3.66 1.16-4.48 2.82A7.96 7.96 0 0 1 4 11.99c0-4.41 3.59-8 8-8s8 3.59 8 8c0 2.29-.97 4.36-2.52 5.82"></path>
+                </svg><span>Account</span></button>
+            </a>
+        </div>
+    </nav>
+
+<main class="content-wrapper">
+    <section id="home" style="height: 100vh">
+        <div class="bg"></div>
+        <img src="images/arknights-endfield-dualshockers-preview-screenshots.avif" alt="poster">
+    </section>
+
+    <section id="operators" style="height: 100vh">
+        <div class="image-slider">
+            <div class="slides">
+                <img src="images/580548964_824422673666748_3739311572216329346_n.jpg" alt="">
+                <img src="images/573617461_813641981411484_5143326114325484673_n.jpg" alt="">
+                <img src="images/573095754_814247978017551_3701041256260728744_n.jpg" alt="">
+                <img src="images/574483130_813645048077844_1097058053794266691_n.jpg" alt="">
+                <img src="images/575185736_816499071125775_4348834977593676669_n.jpg" alt="">
+                <img src="images/576064345_818296150946067_8290636051601153200_n.jpg" alt="">
+                <img src="images/576609126_816087347833614_1528150821429270262_n.jpg" alt="">
+                <img src="images/576732210_816500427792306_7196768790689111375_n.jpg" alt="">
+                <img src="images/578675216_820602594048756_8475789974572859595_n.jpg" alt="">
+                <img src="images/579485070_819152347527114_2209426294333527454_n.jpg" alt="">
+                <img src="images/580101173_822803630495319_5100060298944159281_n.jpg" alt="">
+                <img src="images/580286809_821675387274810_1223589742635740302_n.jpg" alt="">
+                <img src="images/582277870_824424956999853_2654050839574787055_n.jpg" alt="">
+                <img src="images/582766693_824421487000200_8271102442535121524_n.jpg" alt="">
+                <img src="images/584536459_827499586692390_3441162993124504554_n.jpg" alt="">
+                <img src="images/585016674_827493896692959_5958746091556629059_n.jpg" alt="">
+                <img src="images/585871215_829201796522169_4690596212989676996_n.jpg" alt="">
+                <img src="images/585890809_829204189855263_2245310876438307511_n.jpg" alt="">
+                <img src="images/585902935_830990046343344_5007530568415955862_n.jpg" alt="">
+                <img src="images/586025400_830980006344348_7643445336576915360_n.jpg" alt="">
+                <img src="images/586370470_830944189681263_3078755311580368393_n.jpg" alt="">
+                <img src="images/586419713_830983863010629_8922514535527500578_n.jpg" alt="">
+                <img src="images/586448874_830982566344092_8882188254764211330_n.jpg" alt="">
+            </div>
+
+           <div class="btn-container">
+                <button class="img-btn" id="left">
+                    <svg id="section-btn`" xmlns="http://www.w3.org/2000/svg" width="24" height="24"  
+                        fill="currentColor" viewBox="0 0 24 24" >
+                        <!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free-->
+                        <path d="M16.46 4.11a1 1 0 0 0-1.04.07l-10 7a.997.997 0 0 0 0 1.64l10 7c.17.12.37.18.57.18a.997.997 0 0 0 1-1V5c0-.37-.21-.71-.54-.89ZM15 17.08 7.74 12 15 6.92z"></path>
+                    </svg>
+                </button>
+                <button class="img-btn" id="right">
+                    <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24"  
+                        fill="currentColor" viewBox="0 0 24 24" >
+                        <!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free-->
+                        <path d="m18.57 11.18-10-7c-.31-.21-.7-.24-1.04-.07-.33.17-.54.51-.54.89v14c0 .37.21.71.54.89.15.08.3.11.46.11.2 0 .4-.06.57-.18l10-7a.997.997 0 0 0 0-1.64ZM9 17.08V6.92L16.26 12z"></path>
+                    </svg>
+                </button>
+           </div>
+        </div>
+    </section>
+
+    <section id="media" style="height: 100vh;">
+
+        <div class="media-line"></div>
+        <div class="image-background">
+            <img src="images/black.jpg" alt="">
+        </div>
+        <div class="video-background">
+            <video id="main-trailer-video" autoplay muted loop playsinline>
+                <source src="trailers/Arknights Endfield Official Release Trailer Back to Endfield - Arknights Endfield (720p, h264).mp4" type="video/mp4">
+            </video>
+        </div>
+
+
+        <div class="media-content">
+            <div class="trailer-info">
+                <h1 id="active-title">Arknights: Endfield Teaser Trailer 01</h1>
+                <p id="active-desc">Special Trailer | 2025-10-31</p>
+            </div>
+
+
+            <div class="thumb-window">
+                <div class="slider-track" id="media-track">
+                    <div class="media-item active" data-video="Arknights Endfield Official Release Trailer Back to Endfield - Arknights Endfield (720p, h264).mp4">
+                        <img src="thumbnails/0.jpg" alt="Thumbnail 1">
+                    </div>
+                    <div class="media-item" data-video="Arknights Endfield Special Trailer  Endfield Those Who Stayed - Arknights Endfield (720p, h264).mp4">
+                        <img src="thumbnails/0 (2).jpg" alt="Thumbnail 2">
+                    </div>
+                    <div class="media-item" data-video="Arknights Endfield Teaser Trailer 01 - Arknights Endfield (720p, h264).mp4">
+                        <img src="thumbnails/0 (1).jpg" alt="Thumbnail 3">
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
